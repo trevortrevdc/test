@@ -48,7 +48,9 @@ const activeLinkStyle = {
 const Menu = () => {
   return (
     <Header>
+    <Link to="/" exact activeStyle={activeLinkStyle}>
     <img src={logo} alt="Logo"/>
+    </Link>
  {/*     <Nav>
         <ul>
           <li>
