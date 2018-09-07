@@ -56,23 +56,23 @@ Edit `/src/utils/siteConfig.js`
 
 ```js
 module.exports = {
-  siteTitle: 'GCN',
-  siteTitleAlt: 'GCN Gatsby Starter',
-  publisher: 'Publisher named GCN',
+  siteTitle: 'Prince William County',
+  siteTitleAlt: 'Prince William County',
+  publisher: 'Prince William County',
   siteDescription:
-    'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-  siteUrl: 'https://gcn.netlify.com',
+    'A Prince William County gatsby test site.',
+  siteUrl: 'https://next.pwcgov.io',
   author: 'GCN User',
   authorUrl: 'https://gcn.netlify.com/about/',
-  userTwitter: '@twitter',
-  shortTitle: 'GCN App',
+  userTwitter: '@pwcgov',
+  shortTitle: 'PWCGOV',
   shareImage: '/logos/share.jpg',
   shareImageWidth: 900,
   shareImageHeight: 600,
   siteLogo: '/logos/logo-512.png',
   backgroundColor: '#e9e9e9',
-  themeColor: '#121212',
-  copyright: 'Copyright © 2018 GCN User',
+  themeColor: '#005eb8',
+  copyright: 'Copyright © 2018 Prince William County',
 }
 ```
 
