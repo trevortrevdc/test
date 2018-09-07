@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import logo from '../images/logo.png'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.base};
@@ -30,18 +31,18 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
+    color: white;
     font-weight: 600;
     transition: all 0.2s;
     border-bottom: 2px solid ${props => props.theme.colors.base};
     &:hover {
-      color: white;
+      color: DarkGray;
     }
   }
 `
 
 const activeLinkStyle = {
-  color: 'white',
+  color: 'DarkGray',
 }
 
 const Menu = () => {
@@ -51,7 +52,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" exact activeStyle={activeLinkStyle}>
-              Home
+            <img src={logo} alt="Logo" height="30px" width='auto' />
             </Link>
           </li>
           <li>

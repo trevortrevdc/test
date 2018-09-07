@@ -13,29 +13,7 @@ const Index = ({ data }) => {
       <SEO />
       <Container>
         <PageTitle small>
-          <a
-            href="https://www.gatsbyjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Gatsby
-          </a>,{' '}
-          <a
-            href="https://www.contentful.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contentful
-          </a>{' '}
-          and{' '}
-          <a
-            href="https://www.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Netlify
-          </a>{' '}
-          <span>🎉</span>
+          What's Next?
         </PageTitle>
         <CardList>
           {posts.map(({ node: post }) => (
