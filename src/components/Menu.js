@@ -48,11 +48,12 @@ const activeLinkStyle = {
 const Menu = () => {
   return (
     <Header>
-      <Nav>
+    <img src={logo} alt="Logo"/>
+ {/*     <Nav>
         <ul>
           <li>
             <Link to="/" exact activeStyle={activeLinkStyle}>
-            <img src={logo} alt="Logo" height="30px" width='auto' />
+            
             </Link>
           </li>
           <li>
@@ -61,7 +62,7 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-      </Nav>
+      </Nav> */}
     </Header>
   )
 }
