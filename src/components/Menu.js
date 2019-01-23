@@ -49,7 +49,7 @@ const Menu = () => {
   return (
     <Header>
     <Link to="/" exact activeStyle={activeLinkStyle}>
-    <img src={logo} alt="Logo"/>
+    <img src={logo} alt="Logo" width="200px" height="auto"/>
     </Link>
  {/*     <Nav>
         <ul>
